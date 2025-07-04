@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+nav {
+    background-color: orangered;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+header {
+    background-color: rgb(255, 99, 42);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+}
+.owner-contact-info {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 60%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.contact-info {
+    display: flex;
+    gap: 20px;
+    margin-top: 16px;
+}
+.personal {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.company {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+.form-input {
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+    box-shadow: 1px 1px 20px rgba(3, 0, 0, 0.1);
+    background-color: rgb(255, 136, 93);
+}
+.form-input .contact-form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.form-input .contact-form p {
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: 16px;
+}
+
+.name label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-input .contact-form .name .user-info {
+    display: flex;
+    gap: 10px;
+}
+.form-input .contact-form .name .user-info .input-name {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.mail {
+    width: 100%;
+}
+.mail label {
+    display: block;
+    margin-bottom: 5px;
+}
+.mail .input-mail {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.phone label {
+    display: block;
+    margin-bottom: 5px;
+}
+.phone .input-phone {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.message label {
+    display: block;
+    margin-bottom: 5px;
+}
+.message .input-message {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.submit-btn {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+.submit-btn:hover {
+    background-color: white;
+}
+
+.content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+.shq {
+    display: flex;
+    margin: auto;
+    width: 86%;
+    gap: 30px;
+}
+.card-shq {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 250px;
+    padding: 30px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+.card-shq .material-symbols-outlined {
+    font-size: 70px;
+    color: orange;
+}
+
+.map-container {
+    width: 90%;
+}
+.map-locate {
+    gap: 20px;
+    display: flex;
+    height: 350px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    display: block;
+    border: none;
+}
+hr {
+    width: 50%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transition: transform 0.2s;
+}
+
+hr:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer p:hover {
+    text-decoration: underline;
+}

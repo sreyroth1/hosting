@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: orangered;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/16/22/07/fruit-3086969_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+header p {
+    color: white;
+    font-size: 26px;
+}
+
+header h1 {
+    color: white;
+    font-size: 50px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+header button {
+    background-color: white;
+    color: orange;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 550;
+}
+
+header button:hover {
+    background-color: #ffd699;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    gap: 16px;
+    color: rgb(99, 99, 99);
+}
+
+.content p {
+    width: 70%;
+    text-align: center;
+}
+
+.card-container {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: rgb(99, 99, 99);
+}
+
+.card-container h2 {
+    text-align: center;
+}
+
+.card-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ora-juce {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card {
+    width: 240px;
+    padding: 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    transition: transform 0.2s;
+    background: white;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card p {
+    text-align: center;
+}
+
+.card h2 {
+    margin-top: 20px;
+}
+
+.ora-btn {
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ora-btn:hover {
+    background-color: #ffd699;
+}
+
+.card2-content {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.orange-card {
+    transition: transform 0.2s;
+    border-radius: 8px;
+    width: 40%;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ora-fruit-one {
+    border-radius: 8px 0px 0px 8px;
+}
+
+.ora-fruit-two {
+    border-radius: 0px 8px 8px 0px;
+}
+
+.ora-fruit-one,
+.ora-fruit-two {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+.fruit-info {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fruit-info #fru-h2 {
+    align-self: flex-end;
+}
+
+.fruit-info h2 {
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+.fruit-info #fru-p {
+    text-align: right;
+}
+
+.fruit-info .fru-btn {
+    margin-top: 30px;
+    align-self: flex-end;
+    border: none;
+    border-radius: 8px;
+    background: orange;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.fru-btn:hover {
+    background-color: #ffd699;
+}
+
+#fru-btn-two {
+    align-self: flex-start;
+}
+
+
+.ora-drinker {
+    background-color: rgb(255, 111, 0);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 12px 40px 12px 40px;
+    transition: transfrom 0.8s;
+    transition: transform 0.2s;
+}
+
+.ora-drinker:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.drink-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ora-drinker .drink-info p,
+h3 {
+    padding: 0px 0px 10px 60px;
+    width: 80%;
+    color: #f0f0f0;
+}
+
+.ora-drinker .drink-info p {
+    margin-bottom: 20px;
+}
+
+.ora-drinker .drinker-img {
+    width: 50%;
+}
+
+.img-drink {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 0px 40px 12px 0px;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transition: transform 0.2s;
+}
+
+hr:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer p:hover {
+    text-decoration: underline;
+}
